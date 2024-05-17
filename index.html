@@ -10,12 +10,15 @@
     <label for="csvFile">Upload CSV file:</label>
     <input type="file" id="csvFile" accept=".csv">
     <div id="csvOutput"></div> <!-- Container for displaying CSV data -->
+    <ul id="output"></ul> <!-- Element to display the CSV content -->
     <script src="script.js"></script>
 
-    <h2>Category 1: Modelling</h2>
-    <img src="https://quickchart.io/chart?c={type:'line',data:{labels:['hello','February','March','April','May'],datasets:[{label:'Cats',data:[100,200,300,400,500],fill:false,borderColor:'green'}]}}">
-
-
+    <h2 id="chartTitle" style="display: none;">Category 1: Modelling</h2>
+    <img id="chart" src="" style="display: none;">
+    <h2 id="chartTitle2" style="display: none;">Category 2: Investigating</h2>
+    <img id="chart2" src="" style="display: none;">
+    <h2 id="chartTitle3" style="display: none;">Category 3: Communicating</h2>
+    <img id="chart3" src="" style="display: none;">
 
 </body>
 </html>
